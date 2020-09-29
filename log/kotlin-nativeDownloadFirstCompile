@@ -1,0 +1,57 @@
+
+Downloading dependency: https://download.jetbrains.com/kotlin/native/clang-llvm-
+Downloading dependency: https://download.jetbrains.com/kotlin/native/clang-llvm-
+Downloading dependency: https://download.jetbrains.com/kotlin/native/clang-llvm-
+Downloading dependency: https://download.jetbrains.com/kotlin/native/clang-llvm-
+Downloading dependency: https://download.jetbrains.com/kotlin/native/clang-llvm-
+Downloading dependency: https://download.jetbrains.com/kotlin/native/clang-llvm-
+Downloading dependency: https://download.jetbrains.com/kotlin/native/clang-llvm-
+Downloading dependency: https://download.jetbrains.com/kotlin/native/clang-llvm-
+Downloading dependency: https://download.jetbrains.com/kotlin/native/clang-llvm-
+Downloading dependency: https://download.jetbrains.com/kotlin/native/clang-llvm-
+Downloading dependency: https://download.jetbrains.com/kotlin/native/clang-llvm-
+Downloading dependency: https://download.jetbrains.com/kotlin/native/clang-llvm-
+Downloading dependency: https://download.jetbrains.com/kotlin/native/clang-llvm-
+Downloading dependency: https://download.jetbrains.com/kotlin/native/clang-llvm-
+Downloading dependency: https://download.jetbrains.com/kotlin/native/clang-llvm-
+Downloading dependency: https://download.jetbrains.com/kotlin/native/clang-llvm-
+Downloading dependency: https://download.jetbrains.com/kotlin/native/clang-llvm-
+Downloading dependency: https://download.jetbrains.com/kotlin/native/clang-llvm-
+Downloading dependency: https://download.jetbrains.com/kotlin/native/clang-llvm-
+Downloading dependency: https://download.jetbrains.com/kotlin/native/clang-llvm-
+Downloading dependency: https://download.jetbrains.com/kotlin/native/clang-llvm-
+Downloading dependency: https://download.jetbrains.com/kotlin/native/clang-llvm-
+Downloading dependency: https://download.jetbrains.com/kotlin/native/clang-llvm-
+Downloading dependency: https://download.jetbrains.com/kotlin/native/clang-llvm-
+Downloading dependency: https://download.jetbrains.com/kotlin/native/clang-llvm-
+Downloading dependency: https://download.jetbrains.com/kotlin/native/clang-llvm-
+Downloading dependency: https://download.jetbrains.com/kotlin/native/clang-llvm-
+Downloading dependency: https://download.jetbrains.com/kotlin/native/clang-llvm-
+Downloading dependency: https://download.jetbrains.com/kotlin/native/clang-llvm-
+Downloading dependency: https://download.jetbrains.com/kotlin/native/clang-llvm-
+Downloading dependency: https://download.jetbrains.com/kotlin/native/clang-llvm-
+Downloading dependency: https://download.jetbrains.com/kotlin/native/clang-llvm-
+Downloading dependency: https://download.jetbrains.com/kotlin/native/clang-llvm-
+Downloading dependency: https://download.jetbrains.com/kotlin/native/clang-llvm-
+
+Downloading dependency: https://download.jetbrains.com/kotlin/native/clang-llvm-
+Downloading dependency: https://download.j
+Downloading dependency: https://download.jetbrains.com/kotlin/native/clang-llvm-8.0.0-linux-x86-64.tar.gz (581.9 MiB/581.9 MiB). Done.(231.5 MiB/581.9 MiB). r.gz (225.4 MiB/581.9 MiB). e/clang-llvm-8.0.0Extracting dependency: /home/minhkhoa/.konan/cache/clang-llvm-8.0.0-linux-x86-64.tar.gz into /home/minhkhoa/.konan/dependencies
+
+Downloading dependency: https://download.jetbrains.com/kotlin/native/target-gcc-toolchain-3-linux-x86-64.tar.gz (58.4 MiB/58.4 MiB). Done.
+Extracting dependency: /home/minhkhoa/.konan/cache/target-gcc-toolchain-3-linux-x86-64.tar.gz into /home/minhkhoa/.konan/dependencies
+
+Downloading dependency: https://download.jetbrains.com/kotlin/native/libffi-3.2.1-2-linux-x86-64.tar.gz (55.1 kiB/55.1 kiB). Done.
+Extracting dependency: /home/minhkhoa/.konan/cache/libffi-3.2.1-2-linux-x86-64.tar.gz into /home/minhkhoa/.konan/dependencies
+
+Downloading dependency: https://download.jetbrains.com/kotlin/native/lldb-2-linux.tar.gz (30.5 MiB/30.5 MiB). Done.
+Extracting dependency: /home/minhkhoa/.konan/cache/lldb-2-linux.tar.gz into /home/minhkhoa/.konan/dependencies
+
+581,9MB
+58,4MB
+0,05MB
+30,5MB
+
+88,9MB
+581,9MB
+

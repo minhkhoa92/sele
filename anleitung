@@ -1,0 +1,69 @@
+Anleitung: 
+https://kotlinlang.org/docs/tutorials/command-line.html
+compiler version https://github.com/JetBrains/kotlin/releases/tag/v1.4.10 kotlin-compiler-1.4.10.zip
+java in PATH (openjdk 11.0.8)
+kotlinc in PATH (kotlinc kotlinc -version 1.4.10)
+https://repo1.maven.org/maven2/org/junit/platform/junit-platform-console-standalone/1.7.0/junit-platform-console-standalone-1.7.0.jar
+Java 11 siehe spaeter
+Junit5#
+- doc https://junit.org/junit5/docs/current/user-guide/
+
+Kompilieren:
+kotlinc -classpath ../tool/junit5/junit-platform-console-standalone-1.7.0.jar mytest/SimpleUnitTest.kt -d ../build/test/
+
+Testen: Im Testordner folgendes Ausfuehren:
+java -jar ../../tool/junit5/junit-platform-console-standalone-1.7.0.jar --classpath . --scan-classpath
+
+
+.
+├── build
+│   └── test # Kompilierungsartefakte, start von Test
+│       ├── META-INF
+│       └── mytest
+├── log
+├── src
+├── test    # kompilieren
+│   └── mytest
+│       ├── META-INF
+│       └── mytest
+└── tool
+    ├── junit5 # Library und Commandtool
+
+
+OkHTTP!!!!!!!!!!!!!!!!!!!!!
+https://square.github.io/okhttp/security_providers/ TLS v1.3 nur mit Java 11
+Version 4.9.0
+
+https://search.maven.org/artifact/com.squareup.okhttp3/okhttp/4.9.0/jar
+https://search.maven.org/artifact/com.squareup.okio/okio/2.8.0/jar
+
+
+test laufen lassen:
+java -jar ../../tool/junit5/junit-platform-console-standalone-1.7.0.jar --classpath ../../tool/kotlinCompiler/kotlinc/lib/kotlin-stdlib.jar --classpath ../../lib/okhttp-4.9.0.jar --classpath ../../lib/okio-2.8.0.jar --classpath .  --scan-classpath --reports-dir=../../log/junit
+
+Selenium (SeleniumHQ?)
+https://search.maven.org/artifact/org.seleniumhq.selenium/selenium-java/3.14.0/jar
+https://search.maven.org/artifact/org.seleniumhq.selenium/selenium-chrome-driver/3.14.0/jar
+https://search.maven.org/artifact/org.seleniumhq.selenium/selenium-api/3.14.0/jar
+https://repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-support/3.14.0/selenium-support-3.14.0.jar
+https://search.maven.org/artifact/net.bytebuddy/byte-buddy/1.8.15/jar
+https://search.maven.org/artifact/org.apache.commons/commons-exec/1.3/jar
+https://search.maven.org/artifact/commons-codec/commons-codec/1.10/jar
+https://search.maven.org/artifact/commons-logging/commons-logging/1.2/jar
+https://search.maven.org/artifact/com.google.guava/guava/25.0-jre/bundle
+https://search.maven.org/artifact/org.apache.httpcomponents/httpclient/4.5.5/jar
+https://search.maven.org/artifact/org.apache.httpcomponents/httpcore/4.4.9/jar
+https://search.maven.org/artifact/com.squareup.okhttp3/okhttp/3.10.0/jar
+https://search.maven.org/artifact/com.squareup.okio/okio/1.14.1/jar
+https://search.maven.org/artifact/org.seleniumhq.selenium/selenium-remote-driver/3.14.0/jar
+
+Chrome on Windows 	85.0.4183.121 	2020-09-21
+Chrome on macOS 	85.0.4183.121 	2020-09-21
+Chrome on Linux 	85.0.4183.121 	2020-09-21
+
+https://chromedriver.storage.googleapis.com/index.html?path=85.0.4183.83/
+add chromedriver to PATH
+
+kotlinc -classpath ../lib/byte-buddy-1.8.15.jar:../lib/commons-logging-1.2.jar:../lib/httpcore-4.4.9.jar:../lib/okio-1.14.1.jar:../lib/selenium-chrome-driver-3.14.0.jar:../lib/commons-codec-1.10.jar:../lib/guava-25.0-jre.jar:../lib/okhttp-3.10.0.jar:../lib/selenium-java-3.14.0.jar:../lib/commons-exec-1.3.jar:../lib/httpclient-4.5.5.jar:../lib/selenium-api-3.14.0.jar:../lib/selenium-support-3.14.0.jar:../tool/junit5/junit-platform-console-standalone-1.7.0.jar:../lib/selenium-remote-driver-3.14.0.jar   mytest/SeleniumhqTest.kt -d ../build/test/
+
+java -jar ../../tool/junit5/junit-platform-console-standalone-1.7.0.jar --classpath ../../tool/kotlinCompiler/kotlinc/lib/kotlin-stdlib.jar --classpath ../../lib/okhttp-4.9.0.jar --classpath ../../lib/okio-2.8.0.jar --classpath ../../lib/byte-buddy-1.8.15.jar --classpath ../../lib/guava-25.0-jre.jar --classpath ../../lib/selenium-chrome-driver-3.14.0.jar --classpath ../../lib/commons-codec-1.10.jar --classpath ../../lib/httpclient-4.5.5.jar --classpath ../../lib/okio-1.14.1.jar --classpath ../../lib/selenium-java-3.14.0.jar --classpath ../../lib/commons-exec-1.3.jar --classpath ../../lib/httpcore-4.4.9.jar --classpath ../../lib/selenium-remote-driver-3.14.0.jar --classpath ../../lib/commons-logging-1.2.jar --classpath ../../lib/okhttp-3.10.0.jar --classpath ../../lib/selenium-api-3.14.0.jar --classpath ../../lib/selenium-support-3.14.0.jar --classpath .  --scan-classpath --reports-dir=../../log/junit
